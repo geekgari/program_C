@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+  float num1;
+  float num2;
+
+  printf("enter a number: ");
+  scanf("%f", &num1);
+
+  printf("enter another number: ");
+  scanf("%lf", &num2);
+
+  printf("num1 = %f\n", num1); //float
+  printf("num2 = %lf", num2);  //double
+}
